@@ -16,6 +16,7 @@ namespace WPF6
         RAIN,
         SNOW
         }
+
         public int Temperature
         {
             get => (int)GetValue(TemperatureProperty);
